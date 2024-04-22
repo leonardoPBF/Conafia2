@@ -569,21 +569,21 @@ Preloader Area CSS
 }
 /* Bread Crumbs */
 .breadcrumbs {
-	background-image: url('../img/bread-bg.jpg');
+	background-image: url('../img/slider1.jpeg');	
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	position: relative;
-	padding: 120px 0px;
+	padding: 80px 0px;	
 }
 .breadcrumbs .bread-inner{
 	z-index:22;
 	text-align:center;
 }
 .breadcrumbs h2{
-	color: #fff;
+	color: #3bb900;
 	text-transform:capitalize;
-	font-size: 38px;
+	font-size: 48px;
 	font-weight: 700;
 	margin: 0;
 	padding: 0;
@@ -596,26 +596,26 @@ Preloader Area CSS
 	display: inline-block;
 	position: relative;
 	color: #fff;
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: 500;
 	text-transform: capitalize;
 }
 .breadcrumbs ul li i {
 	margin: 0px 10px;
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: 600;
 	color:#fff;
 }
 .breadcrumbs ul li a {
 	color: #fff;
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: 500;
 	text-transform: capitalize;
 	margin:0;
 	padding:0;
 }
 .breadcrumbs ul li a:hover{
-	color:#2C2D3F;
+	color: #3bb900;
 }
 .breadcrumbs ul li.active a {
 	color: #fff;

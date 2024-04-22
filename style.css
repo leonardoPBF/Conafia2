@@ -2275,6 +2275,34 @@ body{
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.10);
 	border-radius: 8px;
 }
+
+.gold{
+	text-align: center;
+	color: #c4b700;	
+	font-size: 40px !important;
+}
+
+.gold-texto{
+	text-align: center;
+	color: #c4b700;		
+}
+
+.silver{
+	text-align: center;
+	color: #485a59;
+	padding-top: 60px;
+	font-size: 40px !important;
+}
+
+.auspiciador{
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+.icon_auspiciador{
+	width: 80%;
+}
+
 .news-single .news-head{}
 .news-single .news-head img{
 	width:100%;
@@ -3184,7 +3212,7 @@ body{
 	border: 1px solid #eee;
 }
 .accordion a:hover {
-  color:#fff !important;
+  color:#fff c;
   background:linear-gradient(0deg, rgba(40,65,26,1) 0%, rgba(85,213,40,1) 100%); !important;
 }
 .accordion a:after {
