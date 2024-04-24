@@ -1720,7 +1720,7 @@ body{
 	position:relative;
 }
 .clients .single-clients{
-	width: 100%;	
+	width: 20rem !important;	
 }
 .clients .single-clients img {
 	width: 100%;
