@@ -37,6 +37,10 @@ img{
 	width: 290px;
 }
 
+.text{
+	font-size: 16px;
+}
+
 video{
 	text-align: center;
 	position: relative;
@@ -459,14 +463,17 @@ Preloader Area CSS
     stroke-dashoffset: 0;
   }
 }
+.btn-more{
+	color: white !important;
+}
 
 .btn {
-	color: #fff;
+	color: #000000;
 	padding: 13px 25px;
 	font-size: 14px;
 	text-transform: capitalize;
 	font-weight: 500;
-	background: #2C2D3F;
+	background: linear-gradient(0deg, rgb(62, 114, 33) 0%, rgba(85, 213, 40, 1) 100%);;
 	position: relative;
 	box-shadow: none;
 	display: inline-block;
@@ -490,7 +497,7 @@ Preloader Area CSS
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: #2C2D3F;
+	background: #15913a;
 	-webkit-transform: scaleX(0);
 	transform: scaleX(0);
 	-webkit-transform-origin: 50%;
