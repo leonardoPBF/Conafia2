@@ -81,7 +81,8 @@
 		</ul>
 	
 		<!-- Header Area -->
-		<header class="header" >			
+		<header class="header" >	
+		
 			<!-- Header Inner -->
 			<div class="header-inner">
 				<div class="container">
@@ -102,15 +103,23 @@
 								<div class="main-menu">
 									<nav class="navigation">
 										<ul class="nav menu">
-											<li><a href="#Acerca">Acerca de </a></li>															
+											<li><a href="index.html">Inicio<i class="icofont-rounded-down"></i></a>
+												<ul class="dropdown">
+													<li class="dropdown_item"><a href="index.html#Acerca">Acerca de </a></li>															
+													<li class="dropdown_item"><a href="index.html#Expositores">Principales expositores</a></li>											
+													<li class="dropdown_item"><a href="index.html#Programa">Programa</a></li>
+													<li class="dropdown_item"><a href="index.html#Visitas">Visitas tecnicas </a></li>
+													<li class="dropdown_item"><a href="index.html#Auspiciadores">Auspiciadores gold </a></li>	
+													<li class="dropdown_item"><a href="index.html#Inscripcion">Inscripcion </a></li>
+												</ul>
+											</li>																								
 											<li><a href="#Expositores">Expositores</a></li>											
 											<li><a href="#Programa">Programa</a></li>
 											<li><a href="#Visitas">Visitas tecnicas </a></li>	
 											<li><a href="#Inscripcion">Inscripcion </a></li>
 											<li><a href="">Organizacion <i class="icofont-rounded-down"></i></a>
 												<ul class="dropdown">
-													<li><a href="auspiciadores.html">Auspciadores</a></li>
-													<li><a href="auspiciadores.html">Auspciadores</a></li>
+													<li><a href="auspiciadores.html">Auspciadores</a></li>													
 												</ul>
 											</li>
 											<li><a href="blog-single.html">Feria </a></li>
@@ -147,16 +156,16 @@
 		<!-- End Breadcrumbs -->
 	
 		<!-- Single News -->
-		<section class="news-single section">
+		<section class="news-single section" id="gold">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 col-12">
 						<div class="row">
 							<div class="col-12">
-								<div class="single-main">
-									
+								<div class="single-main">									
+								
 									<!-- News Title -->
-									<h1 class="news-title gold">Auspiciadores Gold</h1>
+									<h1 class="news-title gold" >Auspiciadores Gold</h1>
 									<!-- Meta -->
 									<div class="row">
 										<div class="col-lg-4 col-md-6 col-12 auspiciador">
@@ -209,8 +218,8 @@
 										</div>
 									</div>	
 									
-									<!-- News Title -->
-									<h1 class="news-title silver">Auspiciadores Silver</h1>
+									<!-- News Title -->									
+									<h1 class="news-title silver" id="silver">Auspiciadores Silver</h1>
 									<!-- Meta -->
 									<div class="row">
 										<div class="col-lg-4 col-md-6 col-12 auspiciador">
@@ -268,21 +277,23 @@
 						
 						</div>
 					</div>
-					<div class="col-lg-4 col-12">
+					<div class="col-lg-4 col-12" >
 						<div class="main-sidebar">
 							
 							<!-- Single Widget -->
-							<div class="single-widget category">
+							<div class="single-widget category" id="pru" style="  position: fixed;
+							top: 100;
+							left: 100;
+							width: 100%;						
+							z-index: 0;">
 								<h3 class="title">Categorias</h3>
 								<ul class="categor-list">
-									<li><a href="#">Gold</a></li>
-									<li><a href="#">Silver</a></li>								
+									<li><a href="#gold">Gold</a></li>
+									<li><a href="#silver">Silver</a></li>								
 								</ul>
 							</div>
 							<!--/ End Single Widget -->						
-								
-							
-							
+
 						</div>
 					</div>
 				</div>
@@ -296,68 +307,59 @@
 			<div class="footer-top">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-3 col-md-6 col-12">
+						<div class="col-lg-4 col-md-6 col-12">
 							<div class="single-footer">
-								<h2>About Us</h2>
-								<p>Lorem ipsum dolor sit am consectetur adipisicing elit do eiusmod tempor incididunt ut labore dolore magna.</p>
-								<!-- Social -->
-								<ul class="social">
-									<li><a href="#"><i class="icofont-facebook"></i></a></li>
-									<li><a href="#"><i class="icofont-google-plus"></i></a></li>
-									<li><a href="#"><i class="icofont-twitter"></i></a></li>
-									<li><a href="#"><i class="icofont-vimeo"></i></a></li>
-									<li><a href="#"><i class="icofont-pinterest"></i></a></li>
+								<h2>Informacion adicional</h2>
+								<p>Numeros telefonicos</p>
+								<ul class="time-sidual">
+									<li class="day">USMP - filial sur <span>(054)203461</span></li>								
 								</ul>
-								<!-- End Social -->
+													
+								<ul class="time-sidual">
+									<li class="day"><i class="icofont-location-pin"></i>Ubicacion <span>Av. Daniel Alcides Carrión Mz. G. Lote 14, José Luis Bustamante y Rivero 04002</span></li>
+								
+								</ul>
 							</div>
-						</div>
-						<div class="col-lg-3 col-md-6 col-12">
+						</div>						
+						
+						<div class="col-lg-4 col-md-6 col-12">
 							<div class="single-footer f-link">
-								<h2>Quick Links</h2>
+								<h2>Accesos rapidos</h2>
 								<div class="row">
 									<div class="col-lg-6 col-md-6 col-12">
 										<ul>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Home</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>About Us</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Services</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Our Cases</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Other Links</a></li>	
+											<li><a href="index.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Inicio</a></li>
+											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Expositores</a></li>
+											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Programa</a></li>
+											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Visitas tecnicas</a></li>
+											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Inscripcion</a></li>	
 										</ul>
 									</div>
 									<div class="col-lg-6 col-md-6 col-12">
 										<ul>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Consuling</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Finance</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Testimonials</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>FAQ</a></li>
-											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Contact Us</a></li>	
+											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Feria</a></li>										
+											<li><a href="#Auspiciadores"><i class="fa fa-caret-right" aria-hidden="true"></i>Auspiciadores</a></li>											
+										
 										</ul>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6 col-12">
+						<div class="col-lg-4 col-md-6 col-12">
 							<div class="single-footer">
-								<h2>Open Hours</h2>
-								<p>Lorem ipsum dolor sit ame consectetur adipisicing elit do eiusmod tempor incididunt.</p>
-								<ul class="time-sidual">
-									<li class="day">Monday - Fridayp <span>8.00-20.00</span></li>
-									<li class="day">Saturday <span>9.00-18.30</span></li>
-									<li class="day">Monday - Thusday <span>9.00-15.00</span></li>
+								<h2>Redes sociales</h2>
+								<p>Para mas informacion sobre el evento puedes acceder a cualquiera de nuestras redes y mantenerte mas actualizado sobre el evento</p>
+								<!-- Social -->
+								<ul class="social">
+									<li><a href="#"><i class="icofont-facebook"></i></a></li>
+									<li><a href="#"><i class="icofont-google-plus"></i></a></li>
+									<li><a href="#"><i class="icofont-twitter"></i></a></li>
+									<li><a href="#"><i class="icofont-instagram"></i></a></li>								
 								</ul>
+								<!-- End Social -->
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6 col-12">
-							<div class="single-footer">
-								<h2>Newsletter</h2>
-								<p>subscribe to our newsletter to get allour news in your inbox.. Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
-								<form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
-									<input name="email" placeholder="Email Address" class="common-input" onfocus="this.placeholder = ''"
-										onblur="this.placeholder = 'Your email address'" required="" type="email">
-									<button class="button"><i class="icofont icofont-paper-plane"></i></button>
-								</form>
-							</div>
-						</div>
+						
 					</div>
 				</div>
 			</div>
@@ -368,7 +370,7 @@
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-12">
 							<div class="copyright-content">
-								<p>© Copyright 2018  |  All Rights Reserved by <a href="https://www.wpthemesgrid.com" target="_blank">wpthemesgrid.com</a> </p>
+								<p>© Copyright 2024 | <a href="https://usmp.edu.pe/" target="_blank">Universidad San Martin de Porres</a> </p>
 							</div>
 						</div>
 					</div>
@@ -377,7 +379,7 @@
 			<!--/ End Copyright -->
 		</footer>
 		<!--/ End Footer Area -->
-		
+
 		<!-- jquery Min JS -->
         <script src="js/jquery.min.js"></script>
 		<!-- jquery Migrate JS -->

@@ -1713,7 +1713,7 @@ body{
 	Start Clients CSS
 ==========================*/
 .clients{
-	background-image:url('img/section-img.png');
+	background-image:url('img/conafia_logo.png');
 	background-size:cover;
 	background-position:center;
 	padding:100px 0px;
@@ -2048,7 +2048,7 @@ body{
 
 .card-expositor{
 	padding: 10px; 
-	background-color: rgb(134, 238, 165);
+	background-color: rgb(233, 233, 233);
 }
 
 .blog .single-news .news-body h2 {
