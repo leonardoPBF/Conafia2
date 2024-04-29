@@ -285,7 +285,7 @@ body{
 }
 .header .logo {
 	float: left;
-	margin-top: 18px;
+	margin-top: 22px;
 }
 .header .navbar {
 	background: none;
@@ -1711,23 +1711,28 @@ body{
 
 /*========================
 	Start Clients CSS
-==========================*/
+=========================*/
+
 .clients{
-	background-image:url('img/conafia_logo.png');
+	background-image:url('img/logo_conafia.png');
 	background-size:cover;
 	background-position:center;
-	padding:100px 0px;
+	padding:70px 0px;
 	position:relative;
 }
+
 .clients .single-clients{
-	width: 20rem !important;	
+	width: 18rem !important;
+	
 }
-.clients .single-clients img {
+.clients .single-clients{
 	width: 100%;
-	cursor: pointer;
-	text-align: center;
-	float: none;
-	padding: 0 35px;
+	height: 200px;
+	cursor: pointer;	
+	display: flex;
+	align-items: center;	
+	padding: 0 35px;	
+
 }
 /*========================
 	End Clients CSS
@@ -3225,8 +3230,8 @@ body{
 	border: 1px solid #eee;
 }
 .accordion a:hover {
-  color:#fff c;
-  background:linear-gradient(0deg, rgba(40,65,26,1) 0%, rgba(85,213,40,1) 100%); !important;
+  color:#fff;
+  background:linear-gradient(0deg, rgba(40,65,26,1) 0%, rgba(85,213,40,1) 100%) !important;
 }
 .accordion a:after {
   position: absolute;

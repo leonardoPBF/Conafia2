@@ -1,10 +1,3 @@
-/* =====================================
-Template Name: 	Mediplus.
-Author Name: Naimur Rahman
-Website: http://wpthemesgrid.com/
-Description: Mediplus - Doctor HTML Template.
-Version:	1.1
-========================================*/ 
 
 /*--------------------------------------------------------------
 # Normalize
@@ -31,7 +24,7 @@ img{
 	max-width:100%;
 }
 .conafia_logo{
-	height: 50px;
+	height: 48px;
 }
 .conafia_loader{
 	width: 290px;
@@ -301,14 +294,14 @@ Preloader Area CSS
 
 .preloader .loader {
   position: absolute;
-  width: 80px;
-  height: 80px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   display: inline-block;
   left: 0;
   right: 0;
   margin: 0 auto;
-  top: 45%;
+  top: 48%;
   -webkit-transform: translateY(-45%);
           transform: translateY(-45%);
   -webkit-transition: 0.5s;
@@ -320,10 +313,10 @@ Preloader Area CSS
   border: 4px solid #ffffff;
   border-left-color: transparent;
   border-bottom: 0;
-  width: 180px;
-  height: 180px;
-  left: calc(40% - 81px);
-  top: calc(40% - 44px);
+  width: 280px;
+  height: 280px;
+  left: calc(40% - 127px);
+  top: calc(40% - 100px);
   border-radius: 150%;
   -webkit-animation: loader-outter 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
           animation: loader-outter 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
@@ -333,10 +326,10 @@ Preloader Area CSS
   position: absolute;
   border: 4px solid #33ff00;
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  left: calc(40% - 91px);
-  top: calc(40% - 54px);
+  width: 310px;
+  height: 310px;
+  left: calc(40% - 142px);
+  top: calc(40% - 115px);
   border-right: 0;
   border-top-color: transparent;
   -webkit-animation: loader-inner 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
