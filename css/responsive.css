@@ -1,6 +1,9 @@
-
-
-
+@media only screen and (min-width: 991px) and (max-width: 1170px) {
+	.clients .single-clients{
+		margin-left: 8rem;
+	}
+	
+}
 
 
 /* Tablet Screen */
@@ -364,15 +367,17 @@
 .footer .footer-top {
 	padding: 65px 0px;
 }
+/* Propia configuracion */
 
-
-
-
-
-
+.clients .single-clients{
+	margin-left: 5.8rem;
+}
 
 
 }
+
+
+
 /* Mobile Screen */
 @media only screen and (max-width: 767px) {
 .header.sticky{
@@ -1025,6 +1030,9 @@
 
 
 }
+
+
+
 /* Mobile Screen */
 @media only screen and (max-width: 450px) {
 
@@ -1298,7 +1306,11 @@
 	padding: 65px 0px;
 }
 
+/* Propia configuracion */
 
+.clients .single-clients{
+	margin-left: 1.8rem;
+}
 
 
 
