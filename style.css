@@ -374,7 +374,6 @@ body{
 	padding-left: 55px;
 }
 .single-widget .category{
-	color: white;
 	display: flex;
 	text-align: center;
 	align-items: center;
@@ -386,12 +385,15 @@ body{
 }
 .single-widget .category .btn-gold{
 	background: #c7ad21 !important;
+	color: white !important;
 }
 .single-widget .category .btn-black{
 	background: #252424 !important;
+	color: white !important;
 }
 .single-widget .category .btn-silver{
 	background: #8998a7 !important;
+	color: white !important;
 }
 
 .single-widget .category li a{
