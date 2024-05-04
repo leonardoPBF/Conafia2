@@ -5,6 +5,10 @@
     padding: 10px; /* Espacio alrededor de los enlaces */
     z-index: 1000; /* Para asegurarse de que la barra de navegación esté encima de otros elementos */
 }
+.nav{
+	justify-content: space-evenly !important;
+}
+
 :root{
 
 	
