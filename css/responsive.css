@@ -2,7 +2,6 @@
 	.clients .single-clients{
 		margin-left: 8rem;
 	}
-	
 }
 
 
@@ -372,7 +371,10 @@
 .clients .single-clients{
 	margin-left: 5.8rem;
 }
-
+.principalesexpositores .section{
+	margin-top: -100px !important;
+	
+}
 
 }
 
@@ -1027,7 +1029,10 @@
 .footer .copyright {
 	padding: 20px 0;
 }
-
+.principalesexpositores .section{
+	margin-top: -40px !important;
+	
+}
 
 }
 

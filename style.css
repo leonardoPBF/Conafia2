@@ -927,6 +927,11 @@ body{
 /*=======================
 	Start Fun Facts CSS
 =========================*/
+.principalesexpositores .section{
+	margin-top: -160px !important;
+	
+}
+
 .fun-facts{
 	position:relative;
 }
@@ -4044,7 +4049,7 @@ body{
 	position:relative;
 }
 .footer .footer-top{
-	padding:100px 0px;
+	padding:70px 0px;
 	position:relative;
 	background:linear-gradient(0deg, rgba(40,65,26,1) 0%, rgba(85,213,40,1) 100%);
 }
